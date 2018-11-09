@@ -6,5 +6,8 @@ public class Main {
         System.out.println("Health: " + basicCharacter.getHealth());
         System.out.println("Name: " + testCharacter.getName());
         System.out.println("Health: " + testCharacter.getHealth());
+        testCharacter = new Poisoned(testCharacter);
+        System.out.println("Name: " + testCharacter.getName());
+        System.out.println("Health: " + testCharacter.getHealth());
     }
 }
